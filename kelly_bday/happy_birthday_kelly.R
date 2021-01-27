@@ -14,14 +14,17 @@
 #               ***
 #                *
 
+# 1. Install these packages if you don't have them yet
 install.packages("dplyr")
 install.packages("magrittr")
 install.packages("tidyr")
 
+# 2. Then pull those beautiful babies in
 library(dplyr)
 library(magrittr)
 library(tidyr)
 
+# 3. Now run all this and check the console!
 kelly_is_smart <- read.csv("https://raw.githubusercontent.com/camcwilliams/Git_Practice/master/kelly_bday/kelly_clue.csv",
                              header = TRUE)
 
